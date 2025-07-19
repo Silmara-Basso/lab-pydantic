@@ -26,8 +26,8 @@ docker compose up --build
 ```
 python cliente.py 
 ```
-Execute de forma alternada os itens 2 e 4
-A cada execução do 2 uma nova versão do modelo é treinada e salva, e como estamos lendo do disco o modelo toda vez que chamamos o cliente, ele sempre usa a versão mais recente.
+Execute de forma alternada os itens 2 e 4. \
+A cada execução do 2 uma nova versão do modelo é treinada e salva, e como estamos lendo o modelo do disco oa cada execução do cliente, ele sempre usa a versão mais recente.
 
 
 
